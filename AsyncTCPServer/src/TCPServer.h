@@ -27,21 +27,3 @@ private:
 };
 
 #endif /* TCPSERVER_H_ */
-
-
-
-
-
-/*
-	TCP_Server(boost::asio::io_service& io_service)
-	: m_acceptor(io_service, boost::asio::ip::tcp::endpoint(boost::asio::ip::tcp::v4(), PORT_NUMBER)) {
-		m_pSession = nullptr;
-		StartAccept();
-	}
-
-	~TCP_Server() {
-		if( m_pSession != nullptr ) {
-			delete m_pSession;
-		}
-	}
-*/
